@@ -37,8 +37,10 @@ public class GitwayApplication {
     // Configuration dynamique sans connait les MS et leurs nom
     /*
     * ACCES TO CUSTOMERS
+    * http://localhost:8888/CUSTOMER-SERVICE/customers
+    * Access au produits
     * http://localhost:8888/INVENTORY-SERVICE/products
-    * you should to write the name of MS Uppercase 
+    * you should to write the name of MS Uppercase
     * */
     @Bean
     DiscoveryClientRouteDefinitionLocator dynamicRoutes(ReactiveDiscoveryClient rdc,
