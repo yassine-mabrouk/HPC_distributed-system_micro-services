@@ -12,11 +12,13 @@
         <module name="eureka-discovery" />
         <module name="customer-service" />
         <module name="HPC_distributed-system_micro-services" />
+        <module name="billing-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="billing-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="eureka-discovery" options="-parameters" />
       <module name="gitway" options="-parameters" />

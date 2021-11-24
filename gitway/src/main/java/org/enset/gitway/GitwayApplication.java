@@ -42,6 +42,7 @@ public class GitwayApplication {
     * http://localhost:8888/INVENTORY-SERVICE/products
     * you should to write the name of MS Uppercase
     * */
+
     @Bean
     DiscoveryClientRouteDefinitionLocator dynamicRoutes(ReactiveDiscoveryClient rdc,
                                                         DiscoveryLocatorProperties dlp){
